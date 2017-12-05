@@ -1,0 +1,15 @@
+{
+    "name": "luwz/easemob",
+    "description": "laravel easemob",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "liuwz",
+            "email": "liu.wz@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
