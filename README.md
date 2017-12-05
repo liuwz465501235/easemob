@@ -1,4 +1,4 @@
-# 安装教程
+## 安装教程
 
 Run ``` composer require luwz/easemob ```
 
