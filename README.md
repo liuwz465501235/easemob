@@ -10,3 +10,18 @@ Run ``` 在项目根目录运行命令: php artisan vendor:publish ```
 
 Setting ``` 在config/easemob.php文件配置相关参数 ```
 
+
+## 使用
+
+### 调用说明
+```
+所有方法就是采用laravel的门面的方法来调用
+```
+
+
+### 调用示例
+```
+use Luwz\Easemob\Facade\Easemob;
+
+如获取token则直接执行    Easemob::getToken()
+```
