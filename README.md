@@ -1,10 +1,12 @@
 ## 安装教程
 
-Run ``` composer require luwz/easemob ```
+Run ``` 在项目根目录运行命令: composer require luwz/easemob ```
 
-Add ``` Luwz\Easemob\EasemobServiceProvider::class, to providers in config/app.php ```
+Add ``` 在config/app.php的providers组下添加: Luwz\Easemob\EasemobServiceProvider::class ```
 
-Add ``` 'Easemob' => Luwz\Easemob\Facades\Easemob::class, to aliases in config/app.php ```
+Add ``` 在config/app.php的aliases组下添加: 'Easemob' => Luwz\Easemob\Facades\Easemob::class```
 
-Run ``` php artisan vendor:publish ```
+Run ``` 在项目根目录运行命令: php artisan vendor:publish ```
+
+Setting ``` 在config/easemob.php文件配置相关参数 ```
 
